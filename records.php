@@ -46,6 +46,11 @@
                 <td class="tableItem"><?php echo $rows['usersName'];?></td>
                 <td class="tableItem"><?php echo $rows['usersAge'];?></td>
                 <td class="tableItem"><?php echo $rows['usersCity'];?></td>
+                /*------------------------------------------------------------*/
+                // table shiz ---> usersID     - usersName - usersAge - usersCity
+                                 PRIMARY_KEY     NOT NULL    NOT NULL   NOT NULL
+                                AUTO_INCREMENT
+                /*------------------------------------------------------------*/
               </tr>
               <?php
                 }
